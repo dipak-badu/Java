@@ -12,6 +12,7 @@ public static void main(String [] args){
     sum = num1+num2;
 
     System.out.println("Sum of the these number:" +sum);
+    sc.close();
 
 
 } 

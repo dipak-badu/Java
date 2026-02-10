@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Array{
     public static void main(String[] args){
         int n , sum =0;
-        float avg;
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no element ypou want in array");
         n = sc.nextInt();
@@ -19,6 +19,7 @@ public class Array{
             System.out.println(a[i]);
          }
          System.out.println(sum);
+         sc.close();
 
 
     }
